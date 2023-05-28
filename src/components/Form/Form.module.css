@@ -1,0 +1,27 @@
+.Form {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Input {
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: none;
+  box-shadow: -2px 2px 4px 1px rgba(34, 60, 80, 0.37);
+  outline: none;
+}
+
+.Btn {
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: -2px 2px 4px 1px rgba(34, 60, 80, 0.37);
+}
+
+.Btn:hover,
+.Btn:focus {
+  background-color: #e5e6eb;
+}
