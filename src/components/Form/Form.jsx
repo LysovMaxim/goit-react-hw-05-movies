@@ -13,7 +13,6 @@ const Form = () => {
     event.preventDefault();
     const form = event.currentTarget;
     setSearchParams({ qurey: form.elements.qurey.value });
-    form.reset();
   };
 
   useEffect(() => {
@@ -44,6 +43,7 @@ ${filmname}&api_key=487f22e4948534aa04d1bc1da1e0a7b4`
           autoFocus
           placeholder="Enter movies name"
           name="qurey"
+          defaultValue={filmname}
         />
         <button type="submit" className={css.Btn}>
           <span className="button-label">Search</span>
